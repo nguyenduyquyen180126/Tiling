@@ -8,7 +8,7 @@ Sắp xếp để tính toán sử dụng các phương pháp: tiling, weight st
 
 Code bằng C -> đo latency, sử dụng bao nhiêu memory
 
-- src/ - chứa header file
+- src/ - chứa header file định nghĩa buffer, dram, pe
 - tiling.c - sử dụng tiling
 - tiling_weight_stationary - sử dụng tiling + weight stationary
 - tiling_input_share - sử dụng tiling + weight stationary + input share
