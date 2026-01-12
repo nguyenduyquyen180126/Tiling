@@ -1,0 +1,55 @@
+--------------- Tiling --------------------
+
+--- STARTING SIMULATION ---
+Specs:
+  - Frequency: 100.0 MHz
+  - DMA Bandwidth: 8 Bytes/cycle
+  - PE Array: 48 PEs (Parallel)
+---------------------------
+
+--- PERFORMANCE REPORT ---
+Total Output Pixels: 12544
+Total Cycles: 928256
+  - DMA Cycles:     903168 (97.30%)
+  - Compute Cycles: 25088 (2.70%)
+Estimated Time: 9.2826 ms
+--------------------------
+
+---------------- Tiling + Weight Stationary ----------------
+
+---- Ofm tinh toan dung ----
+
+--- STARTING SIMULATION ---
+Specs:
+  - Frequency: 100.0 MHz
+  - DMA Bandwidth: 8 Bytes/cycle
+  - PE Array: 48 PEs (Parallel)
+---------------------------
+
+--- PERFORMANCE REPORT ---
+Total Output Pixels: 12544
+Total Cycles: 476708
+  - DMA Cycles:     451620 (94.74%)
+  - Compute Cycles: 25088 (5.26%)
+Estimated Time: 4.7671 ms
+--------------------------
+
+
+----------------- Tiling + Weight Stationary + Input share -----------------
+
+--- STARTING SIMULATION ---
+Specs:
+  - Frequency: 100.0 MHz
+  - DMA Bandwidth: 8 Bytes/cycle
+  - PE Array: 48 PEs (Parallel)
+---------------------------
+
+--- PERFORMANCE REPORT ---
+Total Output Pixels: 12544
+Total Cycles: 178340
+  - DMA Cycles:     153252 (85.93%)
+  - Compute Cycles: 25088 (14.07%)
+Estimated Time: 1.7834 ms
+--------------------------
+
+Tiling + Input share
