@@ -1,5 +1,7 @@
 --------------- Tiling --------------------
 
+---- Ofm tinh toan dung ----
+
 --- STARTING SIMULATION ---
 Specs:
   - Frequency: 100.0 MHz
@@ -36,6 +38,8 @@ Estimated Time: 4.7671 ms
 
 
 ----------------- Tiling + Weight Stationary + Input share -----------------
+
+---- Ofm tinh toan dung ----
 
 --- STARTING SIMULATION ---
 Specs:
